@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "291318486374",
+    "firebase_url": "https://solotask-18405.firebaseio.com",
+    "project_id": "solotask-18405",
+    "storage_bucket": "solotask-18405.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291318486374:android:73830c870921f936bee4a7",
+        "android_client_info": {
+          "package_name": "com.example.solotask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291318486374-hefla77ocrjsjf3pvql6r0i8jtrfgkdh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgTCCqYCf6XiWSRma1UftDugmkRXuZgls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "291318486374-hefla77ocrjsjf3pvql6r0i8jtrfgkdh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

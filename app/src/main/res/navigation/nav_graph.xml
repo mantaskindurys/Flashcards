@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/myStories">
+
+    <fragment
+        android:id="@+id/myStories"
+        android:name="com.example.solotask.Fragments.MyStories"
+        android:label="fragment_my_stories"
+        tools:layout="@layout/fragment_my_stories" />
+    <fragment
+        android:id="@+id/othersStories"
+        android:name="com.example.solotask.Fragments.OthersStories"
+        android:label="fragment_others_stories"
+        tools:layout="@layout/fragment_others_stories" />
+    <fragment
+        android:id="@+id/createStory"
+        android:name="com.example.solotask.Fragments.Create"
+        android:label="fragment_create"
+        tools:layout="@layout/fragment_create"
+        />
+</navigation>

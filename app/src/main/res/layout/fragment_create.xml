@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AAAAFF"
+    tools:context=".Fragments.Create">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:layout_marginBottom="50dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="35dp"
+            android:text="Title"
+            android:gravity="center"
+            android:layout_above="@+id/textCreateView"
+            android:id="@+id/titleText"/>
+
+        <EditText
+            android:id="@+id/textCreateView"
+            android:layout_width="280dp"
+            android:layout_height="250dp"
+            android:layout_centerHorizontal="true"
+            android:background="#F9EFE0"
+            android:gravity="center"
+            android:layout_above="@id/button_save"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:id="@+id/buttonsLayout">
+            
+            <Button
+                android:id="@+id/button_add_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save text" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter Question"
+                android:layout_below="@+id/button_add_1"
+                android:id="@+id/topText"/>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Done"
+            android:layout_marginTop="10dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+</FrameLayout>
